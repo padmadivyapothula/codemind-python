@@ -1,3 +1,5 @@
 a=int(input())
-ans=(a*(a+1))//2
-print(ans)
+s=0
+for i in range(1,a+1):
+    s=s+i
+print(s)
