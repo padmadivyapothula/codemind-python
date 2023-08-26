@@ -1,3 +1,5 @@
-n=int(input())
-sum=(n*(n+1))//2
-print(f"{sum}")
+a=int(input())
+s=0
+for i in range(1,a+1):
+    s=s+i
+print(s)
