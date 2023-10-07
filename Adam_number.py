@@ -1,19 +1,17 @@
 n=int(input())
-s=0
-se=0
 sq=n*n
-q=n
+s=0
+s1=0
 while n!=0:
     r=n%10
     s=s*10+r
     n=n//10
-squ=s*s
-while squ!=0:
-    r=squ%10
-    se=se*10+r
-    squ=squ//10
-if se==sq:
+sq1=s*s
+while sq1!=0:
+    r1=sq1%10
+    s1=s1*10+r1
+    sq1=sq1//10
+if s1==sq:
     print("True")
 else:
     print("False")
-    
