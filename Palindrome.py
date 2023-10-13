@@ -1,11 +1,11 @@
 n=int(input())
 q=n
 s=0
-while n!=0:
-    r=n%10
+while q!=0:
+    r=q%10
     s=s*10+r
-    n=n//10
-if s==q:
+    q=q//10
+if s==n:
     print("True")
 else:
     print("False")
