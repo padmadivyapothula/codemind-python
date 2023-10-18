@@ -1,9 +1,10 @@
+def is_prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
 n=int(input())
-c=0
-for i in range(1,n):
-    if n%i==0:
-        c=c+1
-if c==1:
+if is_prime(n):
     print("prime")
 else:
     print("not a prime")
