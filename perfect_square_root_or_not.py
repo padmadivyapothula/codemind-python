@@ -1,10 +1,10 @@
-a=int(input())
-f=0
-for i in range(1,a):
-    if i*i==a:
-        f=f+1
+n=int(input())
+f=False
+for i in range(1,n):
+    if i*i==n:
+        f=True
         break
-if f==1:
+if f==True:
     print("True")
 else:
     print("False")
