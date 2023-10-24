@@ -1,7 +1,7 @@
 n=int(input())
-s=0
 t=-n if n<0 else n
-while t:
+s=0
+while t!=0:
     r=t%10
     s=s*10+r
     t=t//10
